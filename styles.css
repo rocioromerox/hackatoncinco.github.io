@@ -11,8 +11,10 @@ li {
 }
 
 .nav-link {
-    color: black;
+    color: #1F3F68;
     text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -22,40 +24,103 @@ li {
 .container2 {
     background-image: url("images/banner.png");
     padding: 20px;
+    
+   
 }
 
+
+
 .sub-container2 {
-    color: white;
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
     text-align: center;
+    line-height: 30px;
+    letter-spacing: 0.04em;
     padding: 20px;
 
 }
 
 .container3 {
-    background-image: url("images/Rectangle\ 7.png");
+    border: 1px solid #F4F4F4;
+    background-color: #F4F4F4;
     height: 56px;
     border-radius: 10px;
     padding: 20px;
     margin: 50px 200px 50px 200px;
+
+}
+
+.sub-container3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #1F3F68;
+    opacity: 0.6;
+    
 }
 
 .container4 {
     margin: 5px 200px 5px 200px;
-
-}
-
-.sub-container4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 26px;
-    color: rgba(0, 0, 0, 0.4);
     
 }
 
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
+.card-title-container4 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
     font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.04em;
     color: #1F3F68;
+    
+}
+
+.sub-container4 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    opacity: 0.6;
+    
+}
+
+.text-container4 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+
+.text-card-1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.text-card-2 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.4
 }
 
 .container5 {
@@ -64,22 +129,23 @@ h2 {
 }
 
 .card-title {
-    color: #1F3F68;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
-    margin: auto;
+    line-height: 32px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
 }
 
 .card-text {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 26px;
-    margin: auto;
-    color: rgba(0, 0, 0, 0.4);
+    line-height: 26px;   
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .container6 {
@@ -88,15 +154,53 @@ h2 {
 }
 
 .sub-container6 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #356EAD;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
     font-size: 16px;
+    line-height: 18px;
     text-align: right;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #356EAD;
+    opacity: 0.8;
 }
 
 .container7 {
     margin: 5px 200px 5px 200px;
 
+}
+
+.sub-container7 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.04em;
+    color: #356EAD;
+    opacity: 0.8;
+
+}
+
+.card-title {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.card-text {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .container8 {
@@ -107,6 +211,98 @@ h2 {
 .container9 {
     margin: 5px 200px 5px 200px;
     background-color: #316099;
-    height: 869px;;
 
 }
+
+.tittle-container9 { 
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.text-container9 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+
+.text-container9-col2 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    width: 220px;
+    height: 56px;
+    border: 1px solid black;
+}
+
+
+h3 {
+    font-family: Gilroy;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 30px;
+}
+
+.row2 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 30px;
+}
+
+.tittlefooter2 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 30px;
+}
+
+li {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    list-style: none;
+    text-align: left;
+}
+
+
+
+
+
+
+   
